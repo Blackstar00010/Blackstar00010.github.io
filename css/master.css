@@ -1,4 +1,4 @@
-body, th, td {
+body, th, td, .col-sm-2 {
     text-align: center;
 }
 td:hover {
