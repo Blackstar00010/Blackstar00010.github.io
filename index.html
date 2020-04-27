@@ -5,18 +5,24 @@
         <title>James's Timetable</title>
         <link rel="stylesheet" href="/css/master.css">
         <script type="text/javascript" src="/js/master.js"></script>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <table class="table table-hover">
+        <div class="container">
+            <table class="table table-hover">
             <thead>
-                <th class="col-sm-2">Mon</th>
-                <th class="col-sm-2">Tue</th>
-                <th class="col-sm-2">Wed</th>
-                <th class="col-sm-2">Thu</th>
-                <th class="col-sm-2">Fri</th>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
             </thead>
             <tbody>
                 <tr id="1p">
@@ -90,6 +96,7 @@
                     <td class=""></td>
                 </tr>
             </tbody>
-        </table>
+            </table>
+        </div>
     </body>
 </html>
