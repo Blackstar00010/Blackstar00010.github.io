@@ -1,3 +1,6 @@
 body, th, td {
     text-align: center;
 }
+td:hover {
+    cursor: pointer;
+}
