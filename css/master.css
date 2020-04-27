@@ -5,10 +5,18 @@ td:hover {
     cursor: pointer;
     background-color: #eeeeee;
 }
-.table {
-    width: 1000px;
+.empty:hover {
+    cursor: default;
+    background-color: white;
 }
-thead tr {
+.table {
+    width: 1500px;
+}
+thead tr, tbody tr {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-columns: 50px 200px 200px 200px 200px 200px;
+}
+#AT {
+    display: grid;
+    grid-template-columns: 50px 1000px;
 }

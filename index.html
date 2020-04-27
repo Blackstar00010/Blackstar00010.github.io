@@ -12,12 +12,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="/css/master.css">
         <script type="text/javascript" src="/js/master.js"></script>
+        <script type="text/javascript" src="/js/day.js"></script>
     </head>
     <body>
         <div class="container">
             <table class="table">
             <thead>
                 <tr>
+                    <th></th>
                     <th>Mon</th>
                     <th>Tue</th>
                     <th>Wed</th>
@@ -26,75 +28,89 @@
                 </tr>
             </thead>
             <tbody>
+                <tr id="AT">
+                    <th>AT</th>
+                    <td onclick="Wayne()" class="AdvTi">AdvTi</td>
+                </tr>
                 <tr id="1p">
-                    <td onclick="PatMeet()" class="PatMeet">PatMeet</td>
-                    <td onclick="APLit()" class="APLit">APLit</td>
-                    <td onclick="AnMech()" class="AnMech">AnMech</td>
-                    <td onclick="APUSH()" class="APUSH">APUSH</td>
-                    <td onclick="IntIm()" class="IntIm">IntIm</td>
+                    <th>1</th>
+                    <td onclick="" class="empty mon"></td>
+                    <td onclick="Ytheus()" class="APLit tue">APLit</td>
+                    <td onclick="KimYS()" class="AnMech wed">AnMech</td>
+                    <td onclick="SonEJ()" class="APUSH thu">APUSH</td>
+                    <td onclick="KangYK()" class="IntIm fri">IntIm</td>
                 </tr>
                 <tr id="2p">
-                    <td onclick="IntIm()" class="IntIm">IntIm</td>
-                    <td onclick="AnMech()" class="AnMech">AnMech</td>
-                    <td onclick="AdvEngWri()" class="AdvEngWri">AdvEngWri</td>
-                    <td onclick="French()" class="French">French</td>
-                    <td onclick="IntIm()" class="IntIm">IntIm</td>
+                    <th>2</th>
+                    <td onclick="KangYK()" class="IntIm mon">IntIm</td>
+                    <td onclick="KimYS()" class="AnMech tue">AnMech</td>
+                    <td onclick="Garr()" class="AdvEngWri wed">AdvEngWri</td>
+                    <td onclick="Florence()" class="French thu">French</td>
+                    <td onclick="KangYK()" class="IntIm fri">IntIm</td>
                 </tr>
                 <tr id="3p">
-                    <td onclick="APLit()" class="APLit">APLit</td>
-                    <td onclick="DiffEq()" class="DiffEq">DiffEq</td>
-                    <td onclick="PE()" class="PE">PE</td>
-                    <td onclick="DiffEq()" class="DiffEq">DiffEq</td>
-                    <td onclick="APCSA()" class="APCSA">APCSA</td>
+                    <th>3</th>
+                    <td onclick="Ytheus()" class="APLit mon">APLit</td>
+                    <td onclick="KimJW()" class="DiffEq tue">DiffEq</td>
+                    <td onclick="KimMS()" class="PE wed">PE</td>
+                    <td onclick="KimJW()" class="DiffEq thu">DiffEq</td>
+                    <td onclick="Harley()" class="APCSA fri">APCSA</td>
                 </tr>
                 <tr id="4p">
-                    <td onclick="French()" class="French">French</td>
-                    <td onclick="DiffEq()" class="DiffEq">DiffEq</td>
-                    <td onclick="PE()" class="PE">PE</td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="AnMech()" class="AnMech">AnMech</td>
+                    <th>4</th>
+                    <td onclick="Florence()" class="French mon">French</td>
+                    <td onclick="KimJW()" class="DiffEq tue">DiffEq</td>
+                    <td onclick="KimMS()" class="PE wed">PE</td>
+                    <td onclick="" class="empty thu"></td>
+                    <td onclick="KimYS()" class="AnMech fri">AnMech</td>
                 </tr>
                 <tr id="lunch">
-                    <td onclick="()" class=""></td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="()" class=""></td>
+                    <th>L</th>
+                    <td onclick="" class="empty mon"></td>
+                    <td onclick="" class="empty tue"></td>
+                    <td onclick="" class="empty wed"></td>
+                    <td onclick="" class="empty thu"></td>
+                    <td onclick="" class="empty fri"></td>
                 </tr>
                 <tr id="5p">
-                    <td onclick="APUSH()" class="APUSH">APUSH</td>
-                    <td onclick="APCal()" class="APCal">APCal</td>
-                    <td onclick="French()" class="French">French</td>
-                    <td onclick="APLit()" class="APLit">APLit</td>
-                    <td onclick="Counsel()" class="Counsel">Counsel</td>
+                    <th>5</th>
+                    <td onclick="SonEJ()" class="APUSH mon">APUSH</td>
+                    <td onclick="ParkYS()" class="APCal tue">APCal</td>
+                    <td onclick="Florence()" class="French wed">French</td>
+                    <td onclick="Ytheus()" class="APLit thu">APLit</td>
+                    <td onclick="KimYS" class="Counsel fri">Counsel</td>
                 </tr>
                 <tr id="6p">
-                    <td onclick="APUSH()" class="APUSH">APUSH</td>
-                    <td onclick="APCSA()" class="APCSA">APCSA</td>
-                    <td onclick="APUSH()" class="APUSH">APUSH</td>
-                    <td onclick="APCal()" class="APCal">APCal</td>
-                    <td onclick="KrHis()" class="KrHis">KrHis</td>
+                    <th>6</th>
+                    <td onclick="SonEJ()" class="APUSH mon">APUSH</td>
+                    <td onclick="Harley()" class="APCSA tue">APCSA</td>
+                    <td onclick="SonEJ()" class="APUSH wed">APUSH</td>
+                    <td onclick="ParkYS()" class="APCal thu">APCal</td>
+                    <td onclick="OBM()" class="KrHis fri">KrHis</td>
                 </tr>
                 <tr id="7p">
-                    <td onclick="APCSA()" class="APCSA">APCSA</td>
-                    <td onclick="APCSA()" class="APCSA">APCSA</td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="HyeOom()" class="HyeOom">HyeOom</td>
-                    <td onclick="AdvEngWri()" class="AdvEngWri">AdvEngWri</td>
+                    <th>7</th>
+                    <td onclick="Harley()" class="APCSA mon">APCSA</td>
+                    <td onclick="Harley()" class="APCSA tue">APCSA</td>
+                    <td onclick="" class="empty wed"></td>
+                    <td onclick="KimYS()" class="HyeOom thu">HyeOom</td>
+                    <td onclick="Garr()" class="AdvEngWri fri">AdvEngWri</td>
                 </tr>
                 <tr id="8p">
-                    <td onclick="AdvEngWri()" class="AdvEngWri">AdvEngWri</td>
-                    <td onclick="ILE()" class="ILE">ILE</td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="HyeOom()" class="HyeOom">HyeOom</td>
-                    <td onclick="APCal()" class="APCal">APCal</td>
+                    <th>8</th>
+                    <td onclick="Garr()" class="AdvEngWri mon">AdvEngWri</td>
+                    <td onclick="OhSW()" class="ILE tue">ILE</td>
+                    <td onclick="" class="empty wed"></td>
+                    <td onclick="KimYS()" class="HyeOom thu">HyeOom</td>
+                    <td onclick="ParkYS()" class="APCal fri">APCal</td>
                 </tr>
                 <tr id="9p">
-                    <td onclick="()" class=""></td>
-                    <td onclick="FieStd()" class="FieStd">FieStd</td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="()" class=""></td>
-                    <td onclick="()" class=""></td>
+                    <th>SS</th>
+                    <td onclick="" class="empty mon"></td>
+                    <td onclick="Menard()" class="FieStd tue">FieStd</td>
+                    <td onclick="" class="empty wed"></td>
+                    <td onclick="" class="empty thu"></td>
+                    <td onclick="" class="empty fri"></td>
                 </tr>
             </tbody>
             </table>
