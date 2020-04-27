@@ -4,3 +4,10 @@ body, th, td, .col-sm-2 {
 td:hover {
     cursor: pointer;
 }
+.table {
+    width: 1000px;
+}
+thead tr {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+}
