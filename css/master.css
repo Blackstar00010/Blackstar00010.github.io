@@ -3,6 +3,7 @@ body, th, td, .col-sm-2 {
 }
 td:hover {
     cursor: pointer;
+    background-color: #eeeeee;
 }
 .table {
     width: 1000px;
