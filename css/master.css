@@ -20,3 +20,7 @@ thead tr, tbody tr {
     display: grid;
     grid-template-columns: 50px 1000px;
 }
+.center-align {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
