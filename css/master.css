@@ -1,25 +1,3 @@
-body, th, td, .col-sm-2 {
-    text-align: center;
-}
-td:hover {
-    cursor: pointer;
-    background-color: #eeeeee;
-}
-.empty:hover {
-    cursor: default;
-    background-color: white;
-}
-.table {
-    width: 1500px;
-}
-thead tr, tbody tr {
-    display: grid;
-    grid-template-columns: 50px 200px 200px 200px 200px 200px;
-}
-#AT {
-    display: grid;
-    grid-template-columns: 50px 1000px;
-}
 .center-align {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
