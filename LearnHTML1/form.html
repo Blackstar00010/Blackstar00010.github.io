@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>실전 HTML & CSS 강좌</title>
+    </head>
+    <body>
+        <header>
+            <div class="col-sm-5"></div>
+            <div class="col-sm-2">
+                <a href="start.html"><button type="button" name="button"> Go Home</button></a>
+            </div>
+            <div class="col-sm-5"></div>
+        </header>
+        <form action="#" method="get">
+            <!-- 액션에 정보를 보내는 위치를 지정함 -->
+            <!-- get 말고 post 방식도 있음. 디폴트는 겟. 겟은 비암호화 포스트는 암호화-->
+            User ID     : <input type="text" name="uID"> <br>
+            User Name   : <input type="text" name="uName"> <br>
+            Password    : <input type="password" name="uPW"> <br>
+            Phone       : <input type="text" name="uPhone1" size="5"> - <input type="text" name="uPhone2" size="5"> - <input type="text" name="uPhone3" size="5"> <br>
+            Photo       : <input type="file" name="uPic"> <br>
+            Sex         : <input type="radio" name="uGen" value="m">Male <input type="radio" name="uGen" value="f">Feale  <br>
+            Language    : <input type="checkbox" name="uLang" value="kor" checked> Korean <input type="checkbox" name="uLang" value="eng"> English <input type="checkbox" name="uLang" value="fr"> French <input type="checkbox" name="uLang" value="jap"> Japanese <br>
+            Description : <textarea rows="5" cols="20"> Introduce Yourself </textarea> <br>
+            Nationality :
+            <select multiple="multiple">
+                <option>Korea</option>
+                <option>USA</option>
+                <option>Japan</option>
+                <option>China</option>
+                <option>France</option>
+                <option>Others</option>
+            </select>
+            <input type="submit">
+        </form>
+    </body>
+</html>
