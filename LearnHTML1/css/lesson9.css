@@ -1,0 +1,26 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid gray;
+}
+p::first-letter {
+    font-size: 2em;
+}
+p::first-line {
+    font-weight: bold;
+}
+
+a::after {
+    content: ' - ' attr(href);
+}
+
+p:not(.asdf) {
+    color: red;
+}
+p:first-child::selection {
+    background-color: black;
+    color: yellow;
+}

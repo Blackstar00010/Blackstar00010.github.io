@@ -1,0 +1,23 @@
+#content div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+#content div:nth-child(3n+1) {
+    background-color: red;
+}
+#content div:nth-child(3n+2) {
+    background-color: green;
+}
+#content div:nth-child(3n+0) {
+    background-color: blue;
+}
+#content div:nth-child(1), #content div:nth-child(2), #content div:nth-child(3) {
+    display: block;
+}
+#content div:nth-child(4), #content div:nth-child(5), #content div:nth-child(6) {
+    display: inline;
+}
+#content div:nth-child(7), #content div:nth-child(8), #content div:nth-child(9) {
+    display: inline-block;
+}

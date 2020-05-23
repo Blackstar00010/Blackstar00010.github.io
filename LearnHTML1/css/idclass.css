@@ -1,0 +1,55 @@
+header {
+    color: rgb(91, 196, 127);
+    border: 1px dashed rgb(255, 91, 0);
+}
+nav {
+    border: 1px dashed rgb(0, 0, 0);
+}
+footer {
+    border: 5px dashed rgb(100, 100, 10);
+}
+* {
+    color: blue;
+    background-color: skyblue;
+    text-align: center;
+}
+
+h1 {
+    background-color: inherit;
+}
+h1~p {
+    color: white;
+}
+h1+p {
+    color: black;
+}
+#header {
+    width: 700px;
+    border: 1px solid #808080;
+    background-color: lightgreen;
+}
+#wrap {
+    width: 700px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+#content {
+    width: 450px;
+    float: left;
+    border: inherit;
+    text-align: center;
+}
+#content > div {
+    width: 50%;
+}
+#side_banner {
+    float: left;
+    border: inherit;
+    height:inherit;
+}
+#footer {
+    clear: both; /* float 위에꺼 없애주는거 */
+    width: 700px;
+    border: 3px solid #808080;
+    background-color: lightgreen;
+}
