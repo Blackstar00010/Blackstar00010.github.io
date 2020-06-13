@@ -1,0 +1,31 @@
+div {
+    width: 1000px;
+    text-align: center;
+}
+#no1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#no2 {
+    font-family: monospace;
+    font-size: 20px;
+}
+#no3 {
+    font-family: 'Bernard MT';
+    font-size: 2em;
+}
+#no4 {
+    font-family: 'Bernard MT';
+    font-style: italic;
+}
+#no5 {
+    font-family: 'Bernard MT';
+    line-height: 50px;
+}
+#lineheight {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    font-weight: bold;
+    line-height: 500px;
+    overflow: scroll;
+}

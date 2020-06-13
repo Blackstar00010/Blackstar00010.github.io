@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+#wrap {
+    width: 1000px;
+}
+.boxbox {
+    border: 3px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+header, footer {
+    height: 100px;
+    line-height: 100px;
+}
+p {
+    margin: 0px;
+}
+nav {
+    height: 150px;
+}
+#nav-title {
+    height: 60px;
+    line-height: 60px;
+}
+#menus {
+    height: 90px;
+    line-height: 90px;
+}
+#menus .menu {
+    display: inline;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+}
+#menus a {
+    text-decoration: none;
+    color: black;
+}
+
+#content-wrap {
+    overflow: hidden;
+}
+#content {
+    float: left;
+    height: 800px;
+    width: 600px;
+    padding-top: 50px;
+}
+#banner {
+    width: 300px;
+    float: left;
+    height: 800px;
+    padding-top: 50px;
+}

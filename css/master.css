@@ -1,7 +1,0 @@
-.center-align {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-main {
-    margin-top: 50px;
-}

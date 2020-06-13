@@ -62,6 +62,7 @@ header {
 #third-content {
     width: 1000px;
     height: 1000px;
-    background-image: url("./files/SH.jpg");
+    background-image: url('../files/SH.jpg');
     background-size: 50%;
+    background-repeat: repeat-x;
 }
