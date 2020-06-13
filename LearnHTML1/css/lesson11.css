@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+header {
+    height: 100px;
+}
+.content {
+    border: 1px solid black;
+    text-align: left;
+    float: left
+}
+.content div {
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+#content1 {
+    background-color: red;
+}
+#content2 {
+    background-color: blue;
+    padding: 30px;
+}
+#content3 {
+    background-color: green;
+    margin: 30px;
+}
+#content4 {
+    background-color: yellow;
+    padding: 30px;
+    margin: 30px;
+}
+#content5 {
+    background-color: purple;
+    border: 30px solid black;
+}
+#content6 {
+    background-color: purple;
+    border: 30px solid black;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+#second-content div {
+    border-width: 10px;
+    border-color: orange;
+    background-color: skyblue;
+    margin: 10px;
+}
+#border1 {
+    border-style: dotted;
+}
+#border2 {
+    border-radius: 8px;
+    border-style: solid;
+}
+#border3 {
+    border-top: 10px solid orange;
+}
+
+#third-content {
+    width: 1000px;
+    height: 1000px;
+    background-image: url("./files/SH.jpg");
+    background-size: 50%;
+}

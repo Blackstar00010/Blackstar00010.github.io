@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;
+}
+.content {
+    overflow: hidden;
+}
+.left-menu {
+    display: inline-block;
+}
+.mid-menu, .right-menu {
+    overflow: scroll;
+    display: inline-block;
+}
