@@ -5,7 +5,7 @@ function purplecomet() {
     var win = window.open('../branches/PurpleComet/purplecometMain.html', '_self');
 }
 function ahoy() {
-    var win = window.open('../branches/getAhoy/home.html', '_self');
+    var win = window.open('../branches/getAhoy/dashboard.html', '_self');
 }
 function learnhtml() {
     var win = window.open('../branches/LearnHTML1/start.html', '_self');

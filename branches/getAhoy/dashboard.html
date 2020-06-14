@@ -9,12 +9,22 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/dashbaord.css">
     </head>
     <body>
         <header>
+            <div id="logo">
+                <img src="" alt="">
+            </div>
+            <div id="download">
+                <div onclick="download()"><i class="fa fa-download" aria-hidden="true" value="Download Ahoy!"></i></div>
+            </div>
+            <div id="logout">
 
+            </div>
         </header>
         <div class="content">
             <div class="col-sm-2 left-menu">
@@ -38,7 +48,7 @@
                 </table>
             </div>
             <div class="col-sm-10 not-left-menu">
-                <span class="mid-menu col">
+                <span class="mid-menu col-sm-6">
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -55,7 +65,7 @@
                         </tbody>
                     </table>
                 </span>
-                <span class="right-menu col">
+                <span class="right-menu col-sm-6">
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -74,5 +84,9 @@
                 </span>
             </div>
         </div>
+        <footer>
+            <p>Copyright c Ahoy!™ 2020</p>
+            <p>All Rights Reserved</p>
+        </footer>
     </body>
 </html>
