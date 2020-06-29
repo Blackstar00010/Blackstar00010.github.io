@@ -13,3 +13,6 @@ function learnhtml() {
 function realahoy() {
     var win = window.open('https://getahoy.net', '_self');
 }
+function learnjs() {
+    var win = window.open('../branches/LearnJS/00home.html', '_self');
+}

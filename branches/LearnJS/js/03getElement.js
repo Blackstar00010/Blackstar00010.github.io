@@ -1,16 +1,20 @@
-var uls = document.getElementsByTagName('ul')[0];
-var ullis = uls.getElementsByTagName('li');
-for (var i = 0; ullis.length; i++) {
-    ullis[i].style.color = 'blue';
+var lis = document.getElementsByTagName('li');
+for (var i=0; i<lis.length; i++) {
+    lis[i].style.color='red';
 }
 
-var ols = document.getElementsByTagName('ol')[0];
-var ollis = ols.getElementsByTagName('li');
-for (var i = 0; ollis.length; i++) {
-    ollis[i].style.color = 'red';
+var htmls = document.getElementsByClassName('html');
+for (var i=0; i<htmls.length; i++) {
+    htmls[i].style.color='blue';
 }
 
-var asdf = document.getElementsByTagName('li');
-for (var i=0; asdf.length; i++) {
-    asdf[i].style.color='red';
+var csss = document.getElementById('css');
+csss.style.color='green';
+
+var asdf = document.querySelector('.asdf');
+asdf.style.color='yellow';
+
+var qwer = document.querySelectorAll('.qwer');
+for(var name in qwer) {
+    qwer[name].style.color='orange';
 }
