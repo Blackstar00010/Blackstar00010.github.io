@@ -7,3 +7,6 @@ function opWin() {
 function elem() {
     window.open('03getElement.html', '_self');
 }
+function jq() {
+    window.open('04jQuery.html', '_self');
+}
