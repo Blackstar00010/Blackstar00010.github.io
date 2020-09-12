@@ -10,3 +10,6 @@ function elem() {
 function jq() {
     window.open('04jQuery.html', '_self');
 }
+function htmlElem() {
+    window.open('05htmlElement.html', '_self');
+}

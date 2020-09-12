@@ -15,7 +15,8 @@ function confirmfunc() {
     }
 }
 function promptfunc() {
-    if(prompt('name?') === "james") {
+    var name = promt('name?')
+    if(name === "james") {
         alert('hello');
     }
     else {
